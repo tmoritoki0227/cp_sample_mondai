@@ -1,4 +1,4 @@
-#　問題１
+# 問題１
 Amazon EC2インスタンスで最大90％の割引を受けることができる割引オプションは次のうちどれですか？
 https://aws-exam.net/clf/clf_q.php?q_id=52&q_num=11&service=Amazon%20EC2
 
@@ -14,13 +14,13 @@ https://aws-exam.net/clf/clf_q.php?q_id=86&q_num=20&service=Amazon%20EC2
 - 負荷分散
 - 自動フェイルオーバー
 - ラウンドロビン
--Auto Scaling
+- Auto Scaling
 
 # 問題３
 Amazon EC2インスタンスのCPU使用率を監視するAWSサービスはどれですか？
 https://aws-exam.net/clf/clf_q.php?q_id=352&q_num=94&service=Amazon%20EC2
 
-CloudWatch
-Lambda
-SNS
-CloudTrail
+- CloudWatch
+- Lambda
+- SNS
+- CloudTrail
