@@ -32,7 +32,7 @@ https://aws-exam.net/clf/clf_q.php?q_id=52&q_num=11&service=Amazon%20EC2
 - Auto Scaling
 
 ### アドバイス
-全て自動で何かを行う処理の用語です。正解以外の３つはシステム運用を行っているとよく聞くものです。知っていると消去法で解けますが、出題されることが多い機能なので覚えましょう。
+全て自動で何かを行う処理の用語です。正解以外の３つはAWS以外でもよく聞くものです。知っていると消去法でも解けますが、出題されることが多い機能なので覚えましょう。
 
 ### 回答
 https://aws-exam.net/clf/clf_q.php?q_id=86&q_num=20&service=Amazon%20EC2
