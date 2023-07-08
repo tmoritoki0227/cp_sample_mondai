@@ -10,15 +10,6 @@ Amazon EC2インスタンスで最大90％の割引を受けることができ�
 - 専用ホスト
 - スポットインスタンス
 
-### ヒント
-- リザーブドインスタンスとは予め１年か３年の利用を確約する前提のインスタンスです。長期契約するということは。
-- オンデマンドとは、演習で作ったインスタンスのことです。使用した分だけ払います。
-- 専用ホストインスタンスとはインスタンスが稼働するサーバを通常複数人で使うところを自分一人で専有します。ということは。
-- AWSが用意していたインスタンスの中で、使わっていないインスタンスを使います。急に使えなくなることもあり、信頼性は低いです。
-
-### アドバイス
-知らないと解けない問題です。インスタンスの種類の説明問題は絶対出ると言っても過言ではない問題です。
-
 ### 回答
 https://aws-exam.net/clf/clf_q.php?q_id=52&q_num=11&service=Amazon%20EC2
 
@@ -29,9 +20,6 @@ https://aws-exam.net/clf/clf_q.php?q_id=52&q_num=11&service=Amazon%20EC2
 - 自動フェイルオーバー
 - ラウンドロビン
 - Auto Scaling
-
-### アドバイス
-全て自動で何かを行う処理の用語です。正解以外の３つはAWS以外でもよく聞くものです。知っていると消去法でも解けますが、出題されることが多い機能なので覚えましょう。
 
 ### 回答
 https://aws-exam.net/clf/clf_q.php?q_id=86&q_num=20&service=Amazon%20EC2
@@ -44,15 +32,100 @@ Amazon EC2インスタンスのCPU使用率を監視するAWSサービスはど�
 - SNS
 - CloudTrail
 
-### ヒント
-問題の選択肢の意味は以下のいずれかです。
-- メッセージング/モバイル通知サービス
-- サーバーレスでイベント駆動型のコンピューティングサービス
-- AWS リソースと AWS で実行するアプリケーションのモニタリングサービスです
-- AWS アカウントの運用とリスクの監査、ガバナンス、コンプライアンスを行えるように支援する AWS のサービス
-
-### アドバイス
-素直に英単語だけで判断すると正解できますが、全部出題されることが多いサービスなので覚えましょう。
-
 ### 回答
 https://aws-exam.net/clf/clf_q.php?q_id=352&q_num=94&service=Amazon%20EC2
+
+
+## 問題４
+Amazon EC2 インスタンスをAPIで終了させた場合に、API呼び出しを行ったユーザーを特定できるサービスは次のうちどれですか？
+
+- Amazon CloudWatch
+- AWS CloudTrail
+- AWS X-Ray
+- AWS Identity and Access Management（AWS IAM）
+
+### 回答
+https://aws-exam.net/clf/clf_q.php?q_id=11&q_num=2&service=AWS%20CloudTrail
+
+
+## 問題５
+AWS環境を検査して、ユーザーの費用を節約し、システムのパフォーマンスを向上させることに役立つAWSサービスは次のうちどれですか？
+
+- AWS Cost Explorer
+- AWS Trusted Advisor
+- Consolidated billing
+- コストと使用状況レポート
+
+### 回答
+https://aws-exam.net/clf/clf_q.php?q_id=17&q_num=3&service=AWS%20Trusted%20Advisor
+
+## 問題６　lamda
+企業は、開発者がコードを実行するためにサーバを削減したいと考えています。 このニーズを満たすAWSサービスは次のうちどれですか？
+- Amazon EC2
+- AWS Lambda
+- Amazon DynamoDB
+- AWS CodeCommit
+
+### 回答
+https://aws-exam.net/clf/clf_q.php?q_id=67&q_num=1&service=AWS%20Lambda
+
+## 問題７ ecs
+ある会社は、Dockerコンテナにアプリケーションをインストールする必要があります。どのAWSサービスが、コンテナホストのプロビジョニングと管理の必要性を排除しますか？
+
+- Amazon EC2 Container Registry
+- Amazon ECS
+- AWS Elastic Beanstalk
+- AWS Lambda
+
+### 回答
+https://aws-exam.net/clf/clf_q.php?q_id=222&q_num=1&service=Amazon%20Elastic%20Container%20Registry%20(Amazon%20ECR)
+
+## 問題８ eks 
+ある開発者が、コンテナベースのサービス上にアプリケーションをデプロイしたいと考えています。サービスは、バックエンドインスタンスを自動的にプロビジョニングし、管理する必要があります。サービスは必要なリソースのみをプロビジョニングする必要があります。これらの要件を満たすAWSサービスはどれですか？
+
+- AWS Elastic Beanstalk
+- AWS Fargate
+- Amazon EC2 Container Service (ECS)
+- Amazon Elastic Kubernetes Service (EKS
+
+### 回答
+https://aws-exam.net/clf/clf_q.php?q_id=387&q_num=1&service=Amazon%20Elastic%20Kubernetes%20Service%20(Amazon%20EKS)
+
+## 問題９ fargate
+ある開発者が、コンテナベースのサービス上にアプリケーションをデプロイしたいと考えています。サービスは、バックエンドインスタンスを自動的にプロビジョニングし、管理する必要があります。サービスは必要なリソースのみをプロビジョニングする必要があります。これらの要件を満たすAWSサービスはどれですか？
+
+- AWS Elastic Beanstalk
+- AWS Fargate
+- Amazon EC2 Container Service (ECS)
+- Amazon Elastic Kubernetes Service (EKS)
+
+### 回答
+https://aws-exam.net/clf/clf_q.php?q_id=387&q_num=3&service=AWS%20Fargate
+
+## 問題１０　sns
+分散型アプリケーションからテキストとメールの両方のメッセージを送信するために使用されるAWSのサービスまたは機能はどれですか？
+
+- Amazon SNS
+- Amazon Simple Email Service (SES)
+- Amazon SQS
+- AWS Lambda
+
+### 回答
+https://aws-exam.net/clf/clf_q.php?q_id=291&q_num=6&service=Amazon%20Simple%20Notification%20Service%20(Amazon%20SNS)
+
+## 問題１１ sqs
+Amazon Simple Queue Service (Amazon SQS) は、マイクロサービス、分散システム、およびサーバーレス アプリケーションの分離とスケーリングを容易にする完全マネージド型のメッセージ キューイング サービスです。Amazon SQS は、分散されたアプリケーション コンポーネント間でデータを移動し、これらのコンポーネントを分離するのに役立ちます。
+
+### 回答
+https://aws-exam.net/clf/clf_q.php?q_id=162&q_num=5&service=Amazon%20Simple%20Queue%20Service%20(Amazon%20SQS)
+
+## 問題１2 elb
+アプリケーションを切り離すために使用できる AWS のサービスはどれですか?
+
+- AWS Config
+- Amazon Simple Queue Service (Amazon SQS)
+- AWS Batch
+- Amazon Simple Email Service (Amazon SES)
+- 
+### 回答
+https://aws-exam.net/clf/clf_q.php?q_id=162&q_num=5&service=Amazon%20Simple%20Queue%20Service%20(Amazon%20SQS)
